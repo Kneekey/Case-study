@@ -9,7 +9,7 @@ html {
 /* banner */
 #banner {
   background: linear-gradient(rgba(0, 0, 0, 0.3), #00968850),
-    url("/img/hair12-bia.jpg");
+    url("./img/hair12-bia.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
