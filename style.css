@@ -25,6 +25,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
+  font-weight: 400;
 }
 button:hover {
   background-color: #272727;
@@ -43,6 +44,7 @@ button:hover {
 .banner__right,
 .title__text h2,
 .title__icon ion-icon,
+.cart,
 .category__product--item .right h3 a,
 .latest__item .right h3 a,
 .animal h3 a,
@@ -153,7 +155,7 @@ button:hover {
 }
 .menu > li > ul {
   position: absolute;
-  top: 110%;
+  top: 120%;
   padding: 10px 0;
 }
 .menu li ul .menu__item {
@@ -851,36 +853,72 @@ button:hover {
 }
 .bottom__swap {
   height: 40px;
-  width: 110px;
+  width: 100%;
   margin: auto;
   position: relative;
-  overflow: hidden;
   cursor: pointer;
+  overflow: hidden;
 }
-.bottom__swap p,
-.bottom__swap button {
+.swap {
+  width: 110px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+.swap p,
+.swap button {
   height: 100%;
   width: 100%;
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   transition: 0.5s;
 }
-.bottom__swap p {
+.swap p {
   line-height: 40px;
   bottom: 0;
-  left: 0;
 }
 .bottom__swap p span {
   text-decoration-line: line-through;
 }
-.bottom__swap:hover p {
+.cart:hover + div p,
+button:hover + p {
   bottom: 100%;
 }
-.bottom__swap button {
+.swap button {
   top: 100%;
 }
-.bottom__swap:hover button {
+.cart:hover + div button,
+.swap button:hover {
   top: 0;
+}
+.cart {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.5s;
+}
+.cart::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  right: 100%;
+  z-index: 2;
+  /* background-color: rgb(88, 25, 25); */
+  display: none;
+}
+.cart:hover::before {
+  display: block;
+}
+.cart:hover {
+  color: #f6d802;
 }
 /* feature__sale */
 .feature__sale--box {
@@ -1680,6 +1718,9 @@ button:hover {
   #banner3 .banner__left .banner__text p,
   #banner3 .banner__right .banner__text p {
     padding: 10px 0 0 0;
+  }
+  #banner3 .banner__text p {
+    -webkit-line-clamp: 1;
   }
   .contact__socical ul {
     display: grid;
