@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Supplies, Pet Food, and Pet Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="header--logo">
+            <a href="#">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/logo-pets.webp" alt="logo">
+            </a>
+        </div>
+        <ul class="menu">
+            <div class="icon cancel-btn">
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+            <li class="home">
+                <a href="#">Home</a>
+                <div class="menu--icon menu--icon--main">
+                    <ion-icon name="chevron-up-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+                <div class="menu--icon menu--icon--sub">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <ul>
+                    <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">About Us</a></li>
+                    <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Contact Us</a></li>
+                    <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Account</a></li>
+                </ul>
+            </li>
+            <li class="pages">
+                <a href="#">Pages</a>
+                <div class="menu--icon menu--icon--main">
+                    <ion-icon name="chevron-up-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+                <div class="menu--icon menu--icon--sub">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <ul>
+                    <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Faq</a></li>
+                    <li class="menu__item" ><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Gallery</a></li>
+                    <li style="height: 20px;" class="menu__product">
+                        <a href="#">Product<ion-icon name="chevron-forward-outline"></ion-icon>
+                        </a>
+                        <ul>
+                            <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Comming Soon</a></li>
+                            <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Category</a></li>
+                            <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Checkout</a></li>
+                            <li class="menu__item"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="product" ><a href="#">All For Pets</a>
+                <div class="menu--icon menu--icon--main">
+                    <ion-icon name="chevron-up-outline"></ion-icon>
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </div>
+                <div class="menu--icon menu--icon--sub">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <ul>
+                    <li class="menu__brand"><h3>Brands</h3></li>
+                    <li><a href="#">Blue Buffalo.</a>
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/919%2BUB1RH7L._AC_SL1500_.jpg" alt="food">
+                    </li>
+                    <li><a href="#">Mars Petcare.</a>
+                        <img src="https://petmaster.vn/wp-content/uploads/2020/07/3.-3.jpg" alt="food">
+                    </li>
+                    <li><a href="#">WellPet.</a>
+                        <img src="https://cdn.shoplightspeed.com/shops/629411/files/18328717/wellpet-wellness-ch-sm-breed-puppy-12-lb.jpg" alt="food">
+                    </li>
+                    <li><a href="#">Ainsworth.</a>
+                        <img src="https://www.theshelbyreport.com/wp-content/uploads/2018/04/Nutrish-dog-food.jpg" alt="food">
+                    </li>
+                    <li><a href="#">Freshpet.</a>
+                        <img src="https://m.media-amazon.com/images/I/61YOZFNt8YL._SL1160_.jpg" alt="food">
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item--last"><a href="#">Buy Now</a>
+            </li>
+        </ul>
+        <div class="icon menu-btn">
+            <ion-icon name="menu-outline"></ion-icon> 
+        </div>
+        <ul class="tool">
+            <li><a href="#">
+                <ion-icon name="search-outline"></ion-icon>
+            </a></li>
+            <li ><a class="tool__item--number" href="#">
+                <ion-icon  name="heart-outline"></ion-icon>
+            </a></li>
+            <li class="tool__item--last " ><a  class="tool__item--number" href="#">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                <span>$34.99</span>
+            </a></li>
+        </ul>
+    </section>
+    <!-- end header -->
+    <!-- banner -->
+    <section id="banner1" class="banner1">
+        <div class="banner__img">
+            <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/slider/slide-pets-01.webp" alt="banner">
+        </div>
+        <div class="banner__text">
+            <p>Bio-Organic 30% OFF</p>
+            <h1>We Care About<br> Your Pet!</h1>
+        </div>
+    </section>
+    <!-- end banner -->
+    <!-- service -->
+    <section id="service">
+        <div class="service__box">
+            <div class="service__background1 green"></div>
+            <div class="service__background2 green"></div>
+            <div class="service__background3 green"></div>
+            <div class="service__title">
+                <div class="service__icon">
+                    <ion-icon name="bag-handle-outline"></ion-icon>
+                </div>
+                <h2 class="service__text">ORDER TODAY!
+                    SAVE 10%</h2>
+            </div>
+        </div>
+        <div class="service__box">
+            <div class="service__background1 yellow"></div>
+            <div class="service__background2 yellow"></div>
+            <div class="service__background3 yellow"></div>
+            <div class="service__title">
+                <div class="service__icon">
+                    <ion-icon name="arrow-back-circle-outline"></ion-icon>
+                </div>
+                <h2 class="service__text">MONEYBACK
+                    GUARANTEE</h2>
+            </div>
+        </div>
+        <div class="service__box">
+            <div class="service__background1 oragne"></div>
+            <div class="service__background2 oragne"></div>
+            <div class="service__background3 oragne"></div>
+            <div class="service__title">
+                <div class="service__icon">
+                    <ion-icon name="headset-outline"></ion-icon>
+                </div>
+                <h2 class="service__text">24/7 CUSTOMER
+                    SUPPORT</h2>
+            </div>
+        </div>
+    </section>
+    <!-- end service -->
+    <!-- category -->
+    <section id="category">
+        <div class="title__text">
+            <h2>Shop By Category</h2>
+            <div class="title__icon">
+                <ion-icon name="paw"></ion-icon>
+                <ion-icon name="paw"></ion-icon>
+            </div>
+        </div>
+        <div class="category__product--box">
+            <div class="category__product--item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-01-1.webp" alt="caterogy--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                    <div class="left__circle circle--yellow">New</div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h3><a href="#">Dogs Food</a></h3>
+                    <h4>$ 22</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="category__product--item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-02-1.webp" alt="caterogy--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <h3><a href="#">Cats Food</a></h3>
+                    <h4>$ 24</h4>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="category__animals">
+            <div class="animal">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-category-01.webp" alt="caterogy--img">
+                <h3><a href="#">All For Dogs</a></h3>
+            </div>
+            <div class="animal">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-category-02.webp" alt="caterogy--img">
+                <h3><a href="#">All For Cats</a></h3>
+            </div>
+            <div class="animal">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-category-03.webp" alt="caterogy--img">
+                <h3><a href="#">All For Birds</a></h3>
+            </div>
+            <div class="animal">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-category-04.webp" alt="caterogy--img">
+                <h3><a href="#">All For Rabits</a></h3>
+            </div>
+        </div>
+    </section>
+    <!-- end caterogy -->
+    <!-- banner -->
+    <section id="banner2" class="banner">
+        <div class="banner__img">
+            <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/banner-pets-01.webp" alt="banner">
+        </div>
+        <div class="banner__text">
+            <p>Bio-Organic 30% OFF</p>
+            <h1>Testi & Healthy
+                <br> Food!</h1>
+            <button>Shop Now</button>
+        </div>
+    </section>
+    <!-- end banner -->
+    <!-- feature -->
+    <section id="feature">
+        <div class="title__text">
+            <h2>Featured Products</h2>
+            <div class="title__icon">
+                <ion-icon name="paw"></ion-icon>
+                <ion-icon name="paw"></ion-icon>
+            </div>
+        </div>
+        <div class="feature__product--box">
+            <div class="feature__product--item">
+                <div class="top">
+                    <img class="product__img1 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-03-1.webp" alt="product--img">
+                    <img class="product__img2 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-03-2.webp" alt="product--img">
+                    <div class="top__icon top__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="top__icon top__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                    <div class="top__circle circle--green">
+                        <p>-10%</p>
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <p class="text__desc">FOXic</p>
+                    <h3><a href="#">Small Dogs Food</a></h3>
+                    <div class="bottom__swap">
+                        <p><span class="text__desc">$ 200</span>&nbsp;$ 180</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature__product--item">
+                <div class="top">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-04-1.webp" alt="product--img">
+                    <div class="top__icon top__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="top__icon top__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                    <div class="top__circle circle--yellow">
+                        New
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <p class="text__desc">FOXic</p>
+                    <h3><a href="#">Bird Cage</a></h3>
+                    <div  class="bottom__swap">
+                        <p>$ 180</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature__product--item">
+                <div class="top">
+                    <img class="product__img1 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-05-1.webp" alt="product--img">
+                    <img class="product__img2 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-05-2.webp" alt="product--img">
+                    <div class="top__icon top__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="top__icon top__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                </div>
+                <div class="bottom">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="text__desc">FOXic</p>
+                    <h3><a href="#">12 Cans Pack Cats Food</a></h3>
+                    <div class="bottom__swap">
+                        <p>$ 180</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature__product--item">
+                <div class="top">
+                    <img class="product__img1 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-06-1.webp" alt="product--img">
+                    <img class="product__img2 img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-06-2.webp" alt="product--img">
+                    <div class="top__icon top__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="top__icon top__eye">
+                        <ion-icon name="eye-outline"></ion-icon></div>
+                    <div class="top__circle circle--green">
+                        <p>-50%</p>
+                        <p>Sale</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="text__desc">FOXic</p>
+                    <h3><a href="#">Cat Activity Play Center</a></h3>
+                    <div class="bottom__swap">
+                        <p><span class="text__desc">$ 149</span>&nbsp;$ 299</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sale -->
+        <div class="feature__sale--box">
+            <a href="#">
+                <div class="feature__sale--item">
+                    <div class="feature__sale--img">
+                        <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/banner-pets-02.webp" alt="product--img">
+                    </div>
+                    <div class="feature__sale--text color__black">
+                        <p>Today Only</p>
+                        <h2>Big Sale<br>
+                            UP TO 50%
+                        </h2>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+            <div class="feature__sale--item">
+                    <div class="feature__sale--img">
+                        <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/banner-pets-03.webp" alt="product--img">
+                    </div>
+                    <div class="feature__sale--text color__white">
+                        <p>Special Offer</p>
+                        <h2>Get An Extra<br>
+                            10% OFF
+                        </h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- end feature__product -->
+    <!-- product latest -->
+    <section id="latest">
+        <div class="title__text">
+            <h2>Latest Products</h2>
+            <div class="title__icon">
+                <ion-icon name="paw"></ion-icon>
+                <ion-icon name="paw"></ion-icon>
+            </div>
+        </div>
+        <div class="latest__box">
+            <div class="latest__item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-07-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="top__circle circle--green top__circle--latest">
+                         <p>-10%</p> 
+                    </div>
+                     <div class="circle--product circle--product1">
+                         <img class="img-secondary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-07-1.webp" alt="product--img"> 
+                    </div>
+                    <div class="circle--product circle--product2">
+                        <img class="img-secondary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-07-2.webp" alt="product--img">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h3><a href="#">Legging Red/Black</a></h3>
+                    <p><span class="text__desc">$ 200</span>&nbsp;$ 180</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="latest__item">
+                <div class="left">
+                    <img  class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-08-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="left__circle circle--yellow">
+                         <p>NEW</p> 
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <h3><a href="#">Fitness Jumpsuit Camouflage</a></h3>
+                    <p>$ 180</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="latest__item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-09-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <h3><a href="#">Fitness Jumpsuit Black</a></h3>
+                    <p>$ 180</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="latest__item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-10-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="left__circle circle--green">
+                         <p>-50%</p> 
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h3><a href="#">Striped Leggings and left</a></h3>
+                    <p><span class="text__desc">$ 149</span>&nbsp;$ 299</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="latest__item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-11-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <h3><a href="#">Fitness Jumpsuit</a></h3>
+                    <p>$ 280</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div class="latest__item">
+                <div class="left">
+                    <img class="img-primary" src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/products/product-12-1.webp" alt="product--img">
+                    <div class="left__icon left__heart">
+                        <ion-icon name="heart-outline"></ion-icon></div>
+                    <div class="left__icon left__eye">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <div class="left__circle circle--green">
+                         <p>-10%</p> 
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="star">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                    <h3><a href="#">Fitness Jumpsuit Khaki/Black</a></h3>
+                    <p><span class="text__desc">$ 200</span>&nbsp;$ 180</p>
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end latest -->
+    <!-- banner -->
+    <section id="banner3">
+        <div class="banner__img">
+            <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-bg-01.webp" alt="banner">
+        </div>
+        <div class="banner3__box">
+            <div class="banner__left">
+                <div class="banner__item">
+                    <div class="banner__text">
+                        <h2>Real Food</h2>
+                        <p>Human-grade meat and veggies in simple recipes, made for dogs</p>
+                    </div>
+                    <div class="banner__icon">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="banner__item">
+                    <div class="banner__text">
+                        <h2>USDA</h2>
+                        <p>Safety and quality never before available to pets</p>
+                    </div>
+                    <div class="banner__icon">
+                        <ion-icon name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="banner__img3">
+                <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/pets-center-image.webp" alt="banner">
+            </div>
+            <div class="banner__right">
+                <div class="banner__item">
+                    <div class="banner__text">
+                        <h2>Made Fresh</h2>
+                        <p>Maintain whole food and nutritional</p>
+                    </div>
+                    <div class="banner__icon">
+                        <ion-icon name="arrow-undo-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="banner__item">
+                    <div class="banner__text">
+                        <h2>Vet Approved</h2>
+                        <p>Nutrition that exceeds industry
+                            standarts for pets</p>
+                    </div>
+                    <div class="banner__icon">
+                        <ion-icon name="arrow-undo-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end banner -->
+    <!-- footer -->
+    <section id="footer">
+        <div class="contact">
+            <div class="contact__logo">
+                <a href="#">
+                    <img src="https://big-skins.com/frontend/foxic-html-demo/images/skins/pets/logo-pets.webp" alt="logo">
+                </a>
+            </div>
+            <div class="contact__info">
+                <ul>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">View Cart</a></li>
+                    <li><a href="#">My Wishlist</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="contact__socical">
+                <ul>
+                    <li><a class="face__icon" href="#">f</a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-vimeo"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-pinterest"></ion-icon>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="payment">
+            <div class="payment__box">
+                <ul>
+                    <li><a href="#"><ion-icon name="logo-amazon"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-usd"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-soundcloud"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-bitcoin"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-paypal"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-apple"></ion-icon><span>Pay</span></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p><a href="#">FOXshop</a> ©2020 copyright</p>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+    <script>
+        const navbar = document.querySelector('#header');
+        const menu = document.querySelector('.menu');
+        const menuBtn = document.querySelector('.menu-btn');
+        const cancelBtn = document.querySelector('.cancel-btn');
+        menuBtn.onclick = ()=>{
+            menu.classList.add('active');
+            menuBtn.classList.add('hide');
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove('active');
+            menuBtn.classList.remove('hide');
+        }
+        window.onscroll =()=>{
+            this.scrollY > 20 ? navbar.classList.add('sticky') : navbar.classList.remove('sticky');
+        }
+    </script>
+</body>
+</html>
